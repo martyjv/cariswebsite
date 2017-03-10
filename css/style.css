@@ -1,0 +1,373 @@
+.courgette {
+    font-family:Courgette !important;
+}
+
+body {
+    margin: 0px;
+    height: 100%;
+    display: block;
+    min-height: 100%;
+    position: absolute;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: #0b0b0b;
+}
+
+#app .triskelion {
+    height: 140px;
+    position: relative;
+    top: 0px;
+    right: 30px;
+    opacity: 0.1;
+}
+
+
+
+#app .nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgb(152, 26, 196) 0%,rgb(83, 5, 140) 100%);
+    background-color: white;
+    height: 70px;
+    overflow: hidden;
+}
+
+#app .nav a{
+     margin;
+     padding: 29px 25px;
+     padding-bottom: 31px;
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+     text-shadow: 0px 2px 4px #390d4a;
+     transition: all 0.2s ease-in-out;
+     /* height: 100%; */
+}
+
+#app .nav a:hover{
+
+background: rgba(0, 0, 0, 0.37);
+
+opacity: 1;
+}
+
+#app .nav .icon{height: 100%;max-height: 60px;padding: 15px;left: 20px;}
+
+
+#app .home-template {
+    
+color: white;
+    
+display: flex;
+    
+align-items: center;
+    
+justify-content: center;
+    
+flex-direction: column;
+    
+font-family: 'Parisienne', cursive;
+    
+background-image: url('../images/space.jpg');
+    
+background-size: cover;
+}
+
+#app  .header {
+
+display: flex;
+
+align-items: center;
+
+flex-direction: column;
+
+font-size: 30px;
+
+margin-bottom: 20px;
+
+font-family: 'Parisienne', cursive;
+}
+
+#app .header .title {
+
+font-size: 50px;
+
+margin-top:30px;
+
+margin-bottom: 5px;
+}
+
+#app .header span {
+
+font-size: 20px;
+}
+
+
+#app .header span{
+    
+font-family: 'Palatino Linotype', 'Book Antiqua', 'Palatino serif';
+}
+
+#app .home-template .bubbles {
+
+display: flex;
+
+align-items: center;
+
+align-content: center;
+
+justify-content: center;
+
+flex-direction: row;
+
+flex-wrap: wrap;
+
+margin-bottom: 50px;
+}
+#app .home-template .bubbles .bubble{
+    
+display: flex;
+    
+align-content: flex-start;
+    
+justify-content: flex-start;
+    
+flex-direction: column;
+    
+align-items: center;
+    
+flex: 33%;
+    
+position: relative;
+    
+height: 270px;
+}
+
+#app .home-template .bubbles .bubble img{
+    
+border-radius: 180px;
+    
+height: 160px;
+    
+width: 160px;
+    
+position: relative;
+    
+bottom: 20px;
+}
+
+#app .home-template .bubbles .bubble .title{text-align:center;width: 160px;font-size:20px;}
+
+
+#app .bio {
+    margin:20px;
+    margin-bottom: 50px;
+    width:800px;
+    text-align:center;
+    background: rgba(0, 0, 0, 0.68);
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+
+#app .quote {
+    font-size:40px;
+}
+
+
+#app .quote .title{
+    font-size:40px;
+    margin: 20px;
+}
+
+
+#app .about-template {
+    
+background-image: url('../images/purple.jpg');
+    
+background-size: cover;
+    
+color: white;
+    
+font-size: 30px;
+    
+padding-bottom: 50px;
+}
+
+
+#app .about-template .about-text {
+    
+font-size: 24px;
+    
+max-width: 1180px;
+    
+margin: 0 auto;
+    
+background: rgba(0, 0, 0, 0.43);
+    
+background: rgba(0, 0, 0, 0.4);
+    
+padding: 30px;
+    
+border-radius: 10px;
+    
+margin-bottom: 0px;
+    
+color: rgb(255, 255, 255);
+}
+
+#app .about-template .about-text .about-title{
+    
+font-size: 35px;
+    
+max-width: 1200px;
+    
+margin: 0 auto;
+    
+background: rgba(0, 0, 0, 0.43);
+    
+background: rgba(0, 0, 0, 0.14);
+    
+padding: 10px;
+    
+padding-left: 24px;
+    
+border-radius: 10px;
+    
+margin-bottom: 20px;
+}
+
+
+ #app .services-template {
+     background-image: url('../images/sunset.jpg');
+     color: white;
+     background-size: cover;
+ }
+   
+ #app .services-template .services-text{color: white;font-size: 17px;max-width: 1180px;margin: 0 auto;background: rgba(0, 0, 0, 0.43);background: rgba(0, 0, 0, 0.4);padding: 30px;border-radius: 10px;margin-bottom: 0px;color: rgb(255, 255, 255);display: flex;flex-wrap: wrap;align-items: flex-start;justify-content: space-around;align-content: flex-start;}
+
+ #app .services-text .header{
+    font-size: 55px;
+    max-width: 1180px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.43);
+    background: rgba(0, 0, 0, 0.14);
+    padding: 10px;
+    padding-left: 24px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width:100%;
+ }
+
+  #app .services-text .item{
+ width: 550px;
+ }
+
+  #app .services-text .title{
+    font-size: 20px;
+    max-width: 1180px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.43);
+    background: rgba(0, 0, 0, 0.14);
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+ }
+
+  #app .testimonials-template {
+     
+color: white;
+     
+font-size: 16px;
+     
+margin: 0 auto;
+     
+background: rgba(0, 0, 0, 0.43);
+     
+background: rgba(0, 0, 0, 0.4);
+     
+padding: 30px;
+     
+border-radius: 10px;
+     
+margin-bottom: 0px;
+     
+color: rgb(255, 255, 255);
+     
+background-image: url(../images/fantasy.jpg);
+ }
+
+   #app .testimonials-template .testimonials-text {
+     
+color: white;
+     
+font-size: 18px;
+     
+margin: 0 auto;
+     
+background: rgba(0, 0, 0, 0.43);
+     
+background: rgba(0, 0, 0, 0.4);
+     
+padding: 30px;
+     
+border-radius: 10px;
+     
+margin-bottom: 0px;
+     
+color: rgb(255, 255, 255);
+     
+max-width: 1180px;
+ }
+
+  #app .testimonials-template .header{
+    font-size: 55px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.43);
+    background: rgba(0, 0, 0, 0.14);
+    padding: 10px;
+    padding-left: 24px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+ }
+.footer {
+    
+display: flex;
+    
+align-items: center;
+    
+align-content: center;
+    
+justify-content: center;
+    
+background: white;
+}
+
+.footer .item {
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 20px;
+    height: 120px;
+}
+
+.footer .title {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    height: 140px;
+}
+
+.profile {
+    position:relative;
+    right:20px;
+}

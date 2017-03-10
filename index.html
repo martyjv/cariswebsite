@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Ethereal by HTML5 UP</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Parisienne" rel="stylesheet">
+	<script src="https://unpkg.com/vue/dist/vue.js"></script>
+	<script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+</head>
+
+<body>
+	<div id="app">
+		<div class="nav courgette">
+			<img src="images/triskelion.png" alt="" class="triskelion">
+			<router-link to="/Home">Home</router-link>
+			<router-link to="/About">About</router-link>
+			<router-link to="/Services">Services</router-link>
+			<router-link to="/Testimonials">Testimonials</router-link>
+			<router-link to="/Contact">Contact</router-link>
+			<router-link to="/Events">Events</router-link>
+		</div>
+		<router-view></router-view>
+		<div class="footer courgette">
+			<img class="profile" src="images/profile.jpg">
+			<div class="item">
+				<div class="title">Hours</div>
+				Monday - Friday <br> 10:00AM - 2:00PM <br> evenings & weekends <br> upon request <br>
+			</div>
+			<div class="item">
+				<div class="title">Appointments</div>
+				For appointments, <br> please call (858) 220-0784 <br> Or email cariesthefire@gmail.com
+			</div>
+			<img class="logo" src="images/triskelion-purple.png">
+		</div>
+	</div>
+	<script src="js/app.js"></script>
+</body>
+
+</html>
